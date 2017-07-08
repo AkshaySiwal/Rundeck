@@ -1,7 +1,7 @@
 - description: 'Curtain Dispatcher  : This a place holder job for all dispacher related
     tasks'
   executionEnabled: true
-  group: Bullseye/Dispatcher/Deployment/Step-Wise
+  group: Production/Bullseye/Dispatcher/Deployment/Step-Wise
   id: a5a59795-b71f-41a5-b18f-25799e7e99ff
   loglevel: INFO
   name: 'Curtain Dispatcher '

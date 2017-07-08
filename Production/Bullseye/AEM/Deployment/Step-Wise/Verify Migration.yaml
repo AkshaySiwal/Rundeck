@@ -1,6 +1,6 @@
 - description: Verify Migration
   executionEnabled: true
-  group: Bullseye/AEM/Deployment/Step-Wise
+  group: Production/Bullseye/AEM/Deployment/Step-Wise
   id: c29f9840-4b9c-48ab-9616-50ca14500ca0
   loglevel: INFO
   name: Verify Migration

@@ -1,6 +1,6 @@
 - description: Get Tenant List
   executionEnabled: true
-  group: Bullseye/Dispatcher/Others
+  group: Production/Bullseye/Dispatcher/Others
   id: 7d7d45b5-de4d-4376-a5b9-de33c06006de
   loglevel: INFO
   name: Get Tenant List

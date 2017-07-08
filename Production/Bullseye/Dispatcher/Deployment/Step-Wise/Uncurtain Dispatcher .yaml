@@ -1,6 +1,6 @@
 - description: Uncurtain Dispatcher Description
   executionEnabled: true
-  group: Bullseye/Dispatcher/Deployment/Step-Wise
+  group: Production/Bullseye/Dispatcher/Deployment/Step-Wise
   id: 820184df-2bed-4778-a373-7e7525eb603a
   loglevel: INFO
   name: 'Uncurtain Dispatcher '

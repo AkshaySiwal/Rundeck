@@ -1,6 +1,6 @@
 - description: Run Query
   executionEnabled: true
-  group: Bullseye/AEM/Others
+  group: Production/Bullseye/AEM/Others
   id: ad00025a-0369-48af-9219-361a7fc9841d
   loglevel: INFO
   name: Run Query

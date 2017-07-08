@@ -1,6 +1,6 @@
 - description: ''
   executionEnabled: true
-  group: Bullseye/AEM/Deployment/One-Click
+  group: Production/Bullseye/AEM/Deployment/One-Click
   id: c4f17e05-bc02-4fbf-8835-9dd03475736a
   loglevel: INFO
   name: One Click Deployment ( without migration )

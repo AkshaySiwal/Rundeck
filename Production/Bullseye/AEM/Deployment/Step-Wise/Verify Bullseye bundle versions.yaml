@@ -1,6 +1,6 @@
 - description: Verify Bullseye bundle versions
   executionEnabled: true
-  group: Bullseye/AEM/Deployment/Step-Wise
+  group: Production/Bullseye/AEM/Deployment/Step-Wise
   id: dbaadf29-0557-47b6-81dd-756907d0cac3
   loglevel: INFO
   name: Verify Bullseye bundle versions

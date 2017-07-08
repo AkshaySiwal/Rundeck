@@ -1,0 +1,29 @@
+- description: Uncurtain Dispatcher Description
+  executionEnabled: true
+  group: Bullseye/Dispatcher/Deployment/Step-Wise
+  id: 820184df-2bed-4778-a373-7e7525eb603a
+  loglevel: INFO
+  name: 'Uncurtain Dispatcher '
+  nodeFilterEditable: false
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankAttribute: order
+      rankOrder: ascending
+      threadcount: 1
+    filter: 'leader: true'
+  nodesSelectedByDefault: false
+  scheduleEnabled: false
+  sequence:
+    commands:
+    - description: Uncurtain Dispatcher, Step - 1
+      exec: echo Uncurtain Dispatcher Description ${job.name} ${option.CLUSTER}
+    - exec: echo ${node.hostname} host-A - `hostname`
+    keepgoing: false
+    pluginConfig:
+      WorkflowStrategy:
+        node-first: null
+    strategy: node-first
+  uuid: 820184df-2bed-4778-a373-7e7525eb603a
+

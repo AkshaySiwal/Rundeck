@@ -43,10 +43,6 @@
         group: Bullseye/Dispatcher/Deployment/Step-Wise
         name: 'Uncurtain Dispatcher '
         nodeStep: 'true'
-    - description: step 8
-      exec: echo Ye ye `hostname`
-    - description: step 9
-      exec: ls -lrt
     keepgoing: false
     pluginConfig:
       WorkflowStrategy:

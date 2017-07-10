@@ -1,0 +1,29 @@
+- description: Verify Migration.
+  executionEnabled: true
+  group: Production/Bullseye/AEM/Deployment/Step-Wise
+  id: c29f9840-4b9c-48ab-9616-50ca14500ca0
+  loglevel: INFO
+  name: Verify Migration
+  nodeFilterEditable: false
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankAttribute: order
+      rankOrder: ascending
+      threadcount: 1
+    filter: 'leader: true'
+  nodesSelectedByDefault: false
+  scheduleEnabled: false
+  sequence:
+    commands:
+    - description: Verify Migration, Step - 1
+      exec: echo Verif Migration ${job.name}  ${option.CLUSTER}
+    - exec: echo ${node.hostname} host-A - `hostname`
+    keepgoing: false
+    pluginConfig:
+      WorkflowStrategy:
+        node-first: null
+    strategy: node-first
+  uuid: c29f9840-4b9c-48ab-9616-50ca14500ca0
+

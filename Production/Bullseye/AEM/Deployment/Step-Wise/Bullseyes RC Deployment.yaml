@@ -1,0 +1,31 @@
+- description: Bullseyes RC Deployment
+  executionEnabled: true
+  group: Production/Bullseye/AEM/Deployment/Step-Wise
+  id: e82c3736-bdcf-48ea-bb1c-468edcd43e8b
+  loglevel: INFO
+  name: Bullseyes RC Deployment
+  nodeFilterEditable: false
+  nodefilters:
+    dispatch:
+      excludePrecedence: true
+      keepgoing: false
+      rankAttribute: order
+      rankOrder: ascending
+      threadcount: 1
+    filter: 'leader: true'
+  nodesSelectedByDefault: false
+  scheduleEnabled: false
+  sequence:
+    commands:
+    - description: Bullseyes RC Deployment, Step - 1
+      exec: echo Hi ${job.name} ${option.CLUSTER}
+    - description: Bullseyes RC Deployment, Step - 2
+      exec: echo Hi2 ${job.name}  ${option.CLUSTER}
+    - exec: echo ${node.hostname} host-A - `hostname`
+    keepgoing: false
+    pluginConfig:
+      WorkflowStrategy:
+        node-first: null
+    strategy: node-first
+  uuid: e82c3736-bdcf-48ea-bb1c-468edcd43e8b
+

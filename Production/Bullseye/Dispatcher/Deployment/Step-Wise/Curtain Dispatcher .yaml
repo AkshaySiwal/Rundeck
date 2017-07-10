@@ -19,7 +19,7 @@
   sequence:
     commands:
     - description: Curtain Dispatcher, Step - 1
-      exec: echo I am ${job.name}  ${option.CLUSTER}
+      exec: echo I am a job to execute ${job.name}  ${option.CLUSTER}
     - description: Curtain Dispatcher, Step - 2
       exec: echo  job-1/job-A step2 ${job.name}  ${option.CLUSTER}
     - exec: echo ${node.hostname} host-A - `hostname`
